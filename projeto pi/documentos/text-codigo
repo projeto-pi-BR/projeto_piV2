@@ -1,0 +1,60 @@
+<div class="box-principal">
+    <h1 class="text-h1">ROADMAP -  DESCUBRA POSSÍVEIS CAMINHOS   PARA SE TORNAR UM PROFISSIONAL NA AREA DE TI.</h1>
+    <div class="bt">
+        <button class="front-end">Front End</button>
+        <button class="back-end">Back End</button>
+        <button class="full-stack">Full Stack</button>
+        <button class="ciber-segurança">Ciber Segurança</button>
+        <button class="analise-dados">Analisec Dados</button>
+        <button class="todos">Todos...</button>
+    </div>
+</div>
+
+<div class="linha"></div>
+<br>
+<br>
+<div class="conteudo-ao-clicar-no-botao">
+    <button class="angula">Angula</button>
+    <button class="react">React</button>
+    <button class="vue">Vue</button>
+</div>
+<br>
+<br>
+<div class="linha"></div>
+
+<h2 class="basico"> - BASICO -</h2>
+<br>
+<div class="conteudo.react">
+    <button class="box1">HTML - FUNDAMENTOS</button>
+    <button class="box2">CONCEITOS SPA</button>
+    <button class="box3">REACT - COMPONESTES</button>
+    <button class="box4">CSS- FUNDAMENTOS</button>
+    <button class="box5">JAVASCRIPT - FUNDAMENTOS</button>
+    <button class="box6">REACT - PRPS</button>
+    <button class="box7">DOM - FUNDAMENTOS</button>
+    <br>
+    <br>
+    <br>
+    <div class="linha"></div>
+</div>
+<br>
+<div class="conteudo-html"></div>
+    <h1 class="html">HTML - FUNDAMENTOS</h1>
+    <ul class="lista">
+        <li >HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
+        <br>
+        <li>Aprender quais tags são necessárias para um HTML básico</li>
+        <br>
+        <li>Criar um parágrafo de texto</li>
+        <li>Exibir uma imagem</li>
+        <br>
+        <li>Conhecer a diferença entre 'h1', 'h2', 'h3', etc</li><br>
+        <li>Criar um texto com hyperlink</li>
+        <li>Criar um formulário com campos relevantes</li><br>
+        <li>Criar uma lista de itens ordenada ou não ordenada</li><br>
+        <li>Criar uma lista de itens dentro de uma lista suspensa (dropdown list)</li>
+        <li>Conectar com um arquivo de CSS</li>
+        <li>Criar uma tabela</li>
+        <br>
+        <li>Adicionar IDs e classes</li>
+    </ul>
