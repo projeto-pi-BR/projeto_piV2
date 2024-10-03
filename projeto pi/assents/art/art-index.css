@@ -1,85 +1,54 @@
-/* Inicio */
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1f2029;
+    height: 100%;
 }
 
-/* Menu */
-
-header {
-    padding: 15px;
-    text-align: center;
+.container {
+    display: flex;
     align-items: center;
-    height: 13vh;
-    background-color: #F4A261;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-header #menu img{
-    width: 10%;
-    margin-right: -15vw;
-}
-
-header #menu img:hover {
-    cursor: pointer;
-}
-
-/* areas de seleção */
-
-#area-principal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1250px;
-    margin: auto;
-    margin-top: 5vh;
-}
-
-.areas-de-seleçao {
-    width: 366px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.areas-de-seleçao img {
-    width: 366px;
-}
-
-
-.areas-de-seleçao:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-/* bola */
-
-#bolinhas {
-    margin: auto;
-    margin-top: 10vh;
-    width: 125px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
-.bola {
-    width: 25px;
-    height: 25px;
-    border: solid #000 1px;
+.container h1 {
+    border: solid 5px #ffca1e;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 3em;
+    color: #ffca1e;
+}
+
+.container div:nth-child(2) {
+    margin-top: 25vh;
+}
+
+#bnt {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffca1e;
+    color: #000;
+    display: inline-block;
     border-radius: 20px;
 }
 
-.bola:hover {
-    cursor: pointer;
+#bnt a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
 }
 
-.bola:nth-child(1) {
-    background-color: #F4A261;
+#bnt:hover {
+    transition: 0.5s all;
+    background-color: #000;
+    color: #1f2029;
+    cursor: pointer;
+    
+    a {
+        color: #ffca1e;
+    }
 }
